@@ -8,4 +8,4 @@ int main() {
     std::string result = infix2postfix(test);
     std::cout << result;  // 6 4 2 - * 5 + 2.6 3 7 * + * 9 -
     return 0;
-};
+}
