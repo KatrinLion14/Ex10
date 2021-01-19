@@ -7,12 +7,12 @@
 
 template<class T>
 class MyStack {
- private:
+private:
     T* stack;
     int size;
     int top;
 
- public:
+public:
     explicit MyStack(int n) {
         this->size = n;
         this->top = -1;
